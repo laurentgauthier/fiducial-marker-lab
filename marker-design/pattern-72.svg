@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="yes"?>
+          <svg version="1.1"
+               baseprofile="full"
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:ev="http://www.w3.org/2001/xml-events"
+               height="1500" width="1000">
+          
+<circle cx="230" cy="770" r="72" stroke="black" stroke-width="72" fill="none" />
+<line x1="230" y1="698" x2="230" y2="374" style="stroke:rgb(0,0,0);stroke-width:72" />
+<circle cx="230" cy="230" r="144" stroke="black" stroke-width="72" fill="none" />
+<circle cx="230" cy="230" r="48" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<line x1="374" y1="230" x2="626" y2="230" style="stroke:rgb(0,0,0);stroke-width:72" />
+<path d="M626 230
+           A 144 144 0 0 1 914 230
+           L 914 374
+           A 144 144 0 0 1 626 374
+           L 626 230 Z" stroke="black" fill="none" stroke-width="72" />
+<circle cx="770" cy="230" r="48" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<circle cx="770" cy="374" r="48" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<line x1="770" y1="518" x2="770" y2="626" style="stroke:rgb(0,0,0);stroke-width:72" />
+<path d="M770 626
+           A 144 144 0 0 1 770 914
+           L 482 914
+           A 144 144 0 0 1 482 626
+           L 770 626 Z" stroke="black" fill="none" stroke-width="72" />
+<circle cx="770" cy="770" r="48" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<circle cx="626" cy="770" r="48" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<circle cx="482" cy="770" r="48" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<line x1="302" y1="770" x2="338" y2="770" style="stroke:rgb(0,0,0);stroke-width:72" />
+<path d="M86 1076
+           L 194 1076
+           L 194 1274
+           L 86 1274" stroke="black" fill="none" stroke-width="72" />
+<path d="M914 1076
+           L 806 1076
+           L 806 1274
+           L 914 1274" stroke="black" fill="none" stroke-width="72" />
+<path d="M302 1056 L 341 1056" stroke="black" fill="none" stroke-width="33" />
+<path d="M302 1122 L 341 1122" stroke="black" fill="none" stroke-width="33" />
+<path d="M341 1056 L 380 1056" stroke="black" fill="none" stroke-width="33" />
+<path d="M380 1056 L 419 1056" stroke="black" fill="none" stroke-width="33" />
+<path d="M380 1155 L 419 1155" stroke="black" fill="none" stroke-width="33" />
+<path d="M419 1122 L 458 1122" stroke="black" fill="none" stroke-width="33" />
+<path d="M458 1056 L 497 1056" stroke="black" fill="none" stroke-width="33" />
+<path d="M458 1089 L 497 1089" stroke="black" fill="none" stroke-width="33" />
+<path d="M458 1122 L 497 1122" stroke="black" fill="none" stroke-width="33" />
+<path d="M458 1221 L 497 1221" stroke="black" fill="none" stroke-width="33" />
+<path d="M497 1056 L 536 1056" stroke="black" fill="none" stroke-width="33" />
+<path d="M497 1089 L 536 1089" stroke="black" fill="none" stroke-width="33" />
+<path d="M497 1122 L 536 1122" stroke="black" fill="none" stroke-width="33" />
+<path d="M497 1155 L 536 1155" stroke="black" fill="none" stroke-width="33" />
+<path d="M497 1188 L 536 1188" stroke="black" fill="none" stroke-width="33" />
+<path d="M497 1287 L 536 1287" stroke="black" fill="none" stroke-width="33" />
+<path d="M536 1056 L 575 1056" stroke="black" fill="none" stroke-width="33" />
+<path d="M536 1089 L 575 1089" stroke="black" fill="none" stroke-width="33" />
+<path d="M536 1122 L 575 1122" stroke="black" fill="none" stroke-width="33" />
+<path d="M536 1155 L 575 1155" stroke="black" fill="none" stroke-width="33" />
+<path d="M536 1221 L 575 1221" stroke="black" fill="none" stroke-width="33" />
+<path d="M575 1056 L 614 1056" stroke="black" fill="none" stroke-width="33" />
+<path d="M575 1089 L 614 1089" stroke="black" fill="none" stroke-width="33" />
+<path d="M575 1155 L 614 1155" stroke="black" fill="none" stroke-width="33" />
+<path d="M575 1188 L 614 1188" stroke="black" fill="none" stroke-width="33" />
+<path d="M614 1089 L 653 1089" stroke="black" fill="none" stroke-width="33" />
+<path d="M614 1221 L 653 1221" stroke="black" fill="none" stroke-width="33" />
+<path d="M614 1254 L 653 1254" stroke="black" fill="none" stroke-width="33" />
+<path d="M614 1287 L 653 1287" stroke="black" fill="none" stroke-width="33" />
+<path d="M653 1056 L 692 1056" stroke="black" fill="none" stroke-width="33" />
+<path d="M653 1089 L 692 1089" stroke="black" fill="none" stroke-width="33" />
+<path d="M653 1122 L 692 1122" stroke="black" fill="none" stroke-width="33" />
+<path d="M653 1221 L 692 1221" stroke="black" fill="none" stroke-width="33" />
+<path d="M653 1254 L 692 1254" stroke="black" fill="none" stroke-width="33" />
+</svg>

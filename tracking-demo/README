@@ -1,0 +1,105 @@
+
+Some notes based on the experimentation.
+
+I am using three cameras for my experimentation:
+
+* a low resolution 640x480 logitech USB camera which is very noisy.
+* a higher resolution 1080p logitech USB camera which has an auto-focus
+* the builtin 1080p camera of my laptop which has very sharp optics, and
+  no auto-focus
+
+The pattern is designed to detection if the pattern is observed directly
+or through a reflection in a window or a mirror.
+
+07.01.2015
+
+Added erode(1)/dilate(1).
+
+Creation of a 72 pattern, with enlarged black circles to extend the range
+of detection.
+
+Glued the 72 marker w/ 2/3 black circles on piece of cardboard to avoid
+thresholding failures due to reflection of lights on the paper.
+
+I have observed the following:
+
+* white balance appears to get in the way of detection if the sign
+  is very white and the surrounding is dark.
+* auto-focus also gets in the way of far range detection.
+
+Detection of a 14cm by 14cm pattern returned the following results today:
+
+* about 4m on the 640x480 USB camera
+* 6-7m on the 1080p USB camera
+* 7m on the 1080p internal camera
+
+It is my expectation that scaling up the pattern to about 80cm by 80cm
+would enable reliable detection at a distance of over 30m.
+
+Decided to experiment using a Reed-Solomon error-correcting code for a
+data payload that will include:
+
+* a 24-bit unique ID
+* an 8-bit code indicating the scale of the pattern
+
+The amount of error-correction should be evaluated to figure out how to
+make the system resist to noise and get reliable identification of
+far-away patterns, or patterns under unfavorable lighting conditions.
+
+Encoding the scale of the pattern in the data payload is motivated by
+the need to use patterns of varied scale to facilitate 3-D localization:
+
+* larger patterns usable at long range
+* smaller patterns for close range use
+
+Been reviewing the properties of 3M Scotchlite. Would need to understand if
+it also reflects IR light.
+
+11.01.2016
+
+Re-implemented the pattern detection using the connected components APIs of
+OpenCV.
+
+Downloaded a simple Reed-Solomon python library to enable the creation of
+encoded signs.
+
+Started working on the creation the coded patterns. First draft of the SVG
+creation tool. More work required before it can actually be used.
+
+12.01.2016
+
+Implemented normalization of the marker, to enable proper identification
+of corners.
+
+Added "]" and "[" signs to precisely locate the code area with sub-pixel accuracy.
+
+Added a computation of the four corners of the code area. Problem seen is that the
+approximation does not account for perspective changes.
+
+The calculation is to be updated to account for perspective and get a better guess
+of the location of each of the 4 corners. Having a good guess will enable use of
+sub-pixel corner localization.
+
+The code for localization of the four corners with sub-pixel accuracy is now working
+and tested. There are still a few improvements to make, especially for very small
+markers, as the image gets noisy and the placement of the points might not be very
+accurate. In these cases it might just be better to use the computed approximation.
+
+13.01.2016
+
+Implemented code to resample the coded area to a known scale and decode a Reed-Solomon
+protected code.
+
+Created Reed-Solomon protected patterns, but no support for decoding them has been added
+yet in the code analyzing the video.
+
+14.01.2016
+
+Implemented decoding of Reed-Solomon protected codes.
+
+Managed to get it to work at a distance of about 6m with the laptop camera at its highest
+resolution, as the other camera are impaired by rather poor optics, or focus.
+
+There might be some more work to do to improve the success rate of the decoding by
+tuning the codes. I am thinking of implementing a test-bench using a camera and a screen
+to automatically evaluate the performance of the algorithm.

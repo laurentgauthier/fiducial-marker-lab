@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+          <svg version="1.1"
+               baseprofile="full"
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:ev="http://www.w3.org/2001/xml-events"
+               height="1000" width="1000">
+          
+<circle cx="150" cy="850" r="40" stroke="black" stroke-width="40" fill="none" />
+<line x1="150" y1="810" x2="150" y2="230" style="stroke:rgb(0,0,0);stroke-width:40" />
+<circle cx="150" cy="150" r="80" stroke="black" stroke-width="40" fill="none" />
+<circle cx="150" cy="150" r="20" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<line x1="230" y1="150" x2="770" y2="150" style="stroke:rgb(0,0,0);stroke-width:40" />
+<path d="M770 150
+           A 80 80 0 0 1 930 150
+           L 930 230
+           A 80 80 0 0 1 770 230
+           L 770 150 Z" stroke="black" fill="none" stroke-width="40" />
+<circle cx="850" cy="150" r="20" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<circle cx="850" cy="230" r="20" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<line x1="850" y1="310" x2="850" y2="770" style="stroke:rgb(0,0,0);stroke-width:40" />
+<path d="M850 770
+           A 80 80 0 0 1 850 930
+           L 690 930
+           A 80 80 0 0 1 690 770
+           L 850 770 Z" stroke="black" fill="none" stroke-width="40" />
+<circle cx="850" cy="850" r="20" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<circle cx="770" cy="850" r="20" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<circle cx="690" cy="850" r="20" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<line x1="190" y1="850" x2="610" y2="850" style="stroke:rgb(0,0,0);stroke-width:40" />
+<circle cx="290" cy="210" r="20" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<circle cx="290" cy="290" r="20" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+</svg>

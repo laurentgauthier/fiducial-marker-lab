@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="yes"?>
+          <svg version="1.1"
+               baseprofile="full"
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:ev="http://www.w3.org/2001/xml-events"
+               height="1500" width="1000">
+          
+<circle cx="175" cy="825" r="50" stroke="black" stroke-width="50" fill="none" />
+<line x1="175" y1="775" x2="175" y2="275" style="stroke:rgb(0,0,0);stroke-width:50" />
+<circle cx="175" cy="175" r="100" stroke="black" stroke-width="50" fill="none" />
+<circle cx="175" cy="175" r="33" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<line x1="275" y1="175" x2="725" y2="175" style="stroke:rgb(0,0,0);stroke-width:50" />
+<path d="M725 175
+           A 100 100 0 0 1 925 175
+           L 925 275
+           A 100 100 0 0 1 725 275
+           L 725 175 Z" stroke="black" fill="none" stroke-width="50" />
+<circle cx="825" cy="175" r="33" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<circle cx="825" cy="275" r="33" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<line x1="825" y1="375" x2="825" y2="725" style="stroke:rgb(0,0,0);stroke-width:50" />
+<path d="M825 725
+           A 100 100 0 0 1 825 925
+           L 625 925
+           A 100 100 0 0 1 625 725
+           L 825 725 Z" stroke="black" fill="none" stroke-width="50" />
+<circle cx="825" cy="825" r="33" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<circle cx="725" cy="825" r="33" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<circle cx="625" cy="825" r="33" stroke="black" stroke-width="0" fill="rgba(0,0,0,255)" />
+<line x1="225" y1="825" x2="525" y2="825" style="stroke:rgb(0,0,0);stroke-width:50" />
+<path d="M75 1175
+           L 150 1175
+           L 150 1450
+           L 75 1450" stroke="black" fill="none" stroke-width="50" />
+<path d="M925 1175
+           L 850 1175
+           L 850 1450
+           L 925 1450" stroke="black" fill="none" stroke-width="50" />
+<path d="M225 1170 L 280 1170" stroke="black" fill="none" stroke-width="40" />
+<path d="M225 1250 L 280 1250" stroke="black" fill="none" stroke-width="40" />
+<path d="M280 1170 L 335 1170" stroke="black" fill="none" stroke-width="40" />
+<path d="M335 1170 L 390 1170" stroke="black" fill="none" stroke-width="40" />
+<path d="M335 1290 L 390 1290" stroke="black" fill="none" stroke-width="40" />
+<path d="M390 1250 L 445 1250" stroke="black" fill="none" stroke-width="40" />
+<path d="M445 1170 L 500 1170" stroke="black" fill="none" stroke-width="40" />
+<path d="M445 1210 L 500 1210" stroke="black" fill="none" stroke-width="40" />
+<path d="M445 1250 L 500 1250" stroke="black" fill="none" stroke-width="40" />
+<path d="M445 1370 L 500 1370" stroke="black" fill="none" stroke-width="40" />
+<path d="M500 1170 L 555 1170" stroke="black" fill="none" stroke-width="40" />
+<path d="M500 1210 L 555 1210" stroke="black" fill="none" stroke-width="40" />
+<path d="M500 1250 L 555 1250" stroke="black" fill="none" stroke-width="40" />
+<path d="M500 1290 L 555 1290" stroke="black" fill="none" stroke-width="40" />
+<path d="M500 1330 L 555 1330" stroke="black" fill="none" stroke-width="40" />
+<path d="M500 1450 L 555 1450" stroke="black" fill="none" stroke-width="40" />
+<path d="M555 1170 L 610 1170" stroke="black" fill="none" stroke-width="40" />
+<path d="M555 1210 L 610 1210" stroke="black" fill="none" stroke-width="40" />
+<path d="M555 1250 L 610 1250" stroke="black" fill="none" stroke-width="40" />
+<path d="M555 1290 L 610 1290" stroke="black" fill="none" stroke-width="40" />
+<path d="M555 1370 L 610 1370" stroke="black" fill="none" stroke-width="40" />
+<path d="M610 1170 L 665 1170" stroke="black" fill="none" stroke-width="40" />
+<path d="M610 1210 L 665 1210" stroke="black" fill="none" stroke-width="40" />
+<path d="M610 1290 L 665 1290" stroke="black" fill="none" stroke-width="40" />
+<path d="M610 1330 L 665 1330" stroke="black" fill="none" stroke-width="40" />
+<path d="M665 1210 L 720 1210" stroke="black" fill="none" stroke-width="40" />
+<path d="M665 1370 L 720 1370" stroke="black" fill="none" stroke-width="40" />
+<path d="M665 1410 L 720 1410" stroke="black" fill="none" stroke-width="40" />
+<path d="M665 1450 L 720 1450" stroke="black" fill="none" stroke-width="40" />
+<path d="M720 1170 L 775 1170" stroke="black" fill="none" stroke-width="40" />
+<path d="M720 1210 L 775 1210" stroke="black" fill="none" stroke-width="40" />
+<path d="M720 1250 L 775 1250" stroke="black" fill="none" stroke-width="40" />
+<path d="M720 1370 L 775 1370" stroke="black" fill="none" stroke-width="40" />
+<path d="M720 1410 L 775 1410" stroke="black" fill="none" stroke-width="40" />
+</svg>
