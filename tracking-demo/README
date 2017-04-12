@@ -11,7 +11,7 @@ I am using three cameras for my experimentation:
 The pattern is designed to detection if the pattern is observed directly
 or through a reflection in a window or a mirror.
 
-07.01.2015
+07.01.2016
 
 Added erode(1)/dilate(1).
 
