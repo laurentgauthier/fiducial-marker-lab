@@ -37,7 +37,7 @@ int main(int argc, char* argv[]) {
     cv::Mat          frame;
     cv::Mat          binary;
     cv::Mat          label_image;
-    cv::VideoCapture capture(1);
+    cv::VideoCapture capture(0);
 #ifndef DISABLE_GUI
     bool             showBinary = false;
 #else
